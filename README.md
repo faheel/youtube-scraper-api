@@ -48,7 +48,7 @@ The API accepts GET requests at the `/scrape` endpoint with the following parame
   200
 
   #### Format
-  ```json
+  ```python3
   {
       "id": string,
       "title": string,
@@ -81,7 +81,7 @@ The API accepts GET requests at the `/scrape` endpoint with the following parame
   404
 
   #### Format
-  ```json
+  ```python3
   {
       "error": string
   }
